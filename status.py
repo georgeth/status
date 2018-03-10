@@ -4,8 +4,9 @@ Copyright (c) 2011-2015, Tom Christie All rights reserved.
 
 Descriptive HTTP status codes, for code readability.
 
-See RFC 2616 - http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
-And RFC 6585 - http://tools.ietf.org/html/rfc6585
+See RFC 2616 - https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+And RFC 6585 - https://tools.ietf.org/html/rfc6585
+And RFC 4918 - https://tools.ietf.org/html/rfc4918
 """
 from __future__ import unicode_literals
 import sys
@@ -47,6 +48,7 @@ _STATUSES = {
     204: 'HTTP_204_NO_CONTENT',
     205: 'HTTP_205_RESET_CONTENT',
     206: 'HTTP_206_PARTIAL_CONTENT',
+    207: 'HTTP_207_MULTI_STATUS',
     226: 'HTTP_226_IM_USED',
     300: 'HTTP_300_MULTIPLE_CHOICES',
     301: 'HTTP_301_MOVED_PERMANENTLY',
